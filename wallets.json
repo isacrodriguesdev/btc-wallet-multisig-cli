@@ -1,0 +1,15 @@
+{
+  "profile": {
+    "privatekey": "cPrwok7NntxviTPFmnGdcGqfc8ReHUjQUNoGrMssScHwUUMhGoo1",
+
+    "privatekey1": "cQPKbLJwChEXHLbdPq5BEGCWErTxwtuVMaqaxD7DooQPPbxo5yQi",
+    "privatekey2": "cSXHt1RSmr4cps1FGXjSx4nu71dn7hkxMqrQ6kbaBDhKWAeMr4LQ",
+    "privatekey3": "cPrwok7NntxviTPFmnGdcGqfc8ReHUjQUNoGrMssScHwUUMhGoo1"
+  },
+  "rings": [
+    "03c77e74b7c82ecfacfa5c32a7654d8aa6445d6c1c43e512bcf069261b86e5cd61",
+    "02d18fb17e80b0b0cf0b2e3357cc841f04e6df33776092c498078bee86a61207a7",
+    "0387476e9bff007c51103b5530cc7bd46cb26b1f7a443488be4b3e2cbd69985ac8"
+  ],
+  "network": "testnet"
+}

@@ -16,10 +16,8 @@ class SendToAddressUseCase {
     const getWalletsFactory = GetWalletsFactory()
     const getP2SHAddressFactory = GetP2SHAddressFactory()
 
-    const pubKeys = getWalletsFactory.execute().rings
-    const address = getP2SHAddressFactory.execute(
-      getWalletsFactory.execute().rings
-    )
+    const pubKeys = getWalletsFactory.execute().copayers
+    const address = getP2SHAddressFactory.execute(pubKeys)
 
     const argv = process.argv.slice(3)
     const toAddress = argv[0]
@@ -44,10 +42,10 @@ class SendToAddressUseCase {
       fee: fee,
       toAddress: toAddress,
       changeAddress: address.toString(),
-      amount: 1000,
+      amount: amount,
       keyPair: keyPair,
       pubKeys: pubKeys,
-      threshold: 2
+      threshold: pubKeys.length - 1
     })
 
     const serialized = {

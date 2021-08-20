@@ -23,5 +23,9 @@ interface IBitcoinController {
   signSerializedTransaction(transaction: ITransactionSerialized): any
   createTransaction(transaction: ITransaction): any
   getScript(address: any): any
+  createMnemonic(): string
+  getKeyMnemonic(seendWds: string): string
+  getPubkeyHash(privatekey: string): string
 }
+
 export { IBitcoinController }

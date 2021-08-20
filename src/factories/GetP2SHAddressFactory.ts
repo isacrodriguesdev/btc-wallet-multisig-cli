@@ -1,4 +1,4 @@
-import { GetP2SHAddressUseCase } from "../useCases/getP2SHAddress/GetP2SHAddressUseCase";
+import { GetP2SHAddressUseCase } from "../useCases/GetP2SHAddress/GetP2SHAddressUseCase";
 import { BitcoreControllerAdapter } from "../infra/bitcore/BitcoreControllerAdapter"
 
 export function GetP2SHAddressFactory() {

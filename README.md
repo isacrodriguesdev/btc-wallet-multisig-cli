@@ -9,5 +9,5 @@ This project should not be used to create your real wallet, it is just a templat
 - Verify sign transaction
 - Sign transaction
 
-Design pattern used:
-<b>Solid</b>
+<b>Design patterns used:</b><br/>
+- Solid
